@@ -36,7 +36,7 @@
             bindings = <
 &kp HASH  &kp ESC       &kp F1  &kp F2    &kp F3   &kp F4       &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP    &kp DEL       &kp HASH
 &kp HASH  &kp TAB       &kp F5  &kp F6    &kp F7   &kp F8       &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp INSERT    &kp HASH
-&kp HASH  &kp CAPSLOCK  &kp F9  &kp F10   &kp F11  &kp F12      &trans    &trans        &trans     &trans         &kp QUESTION  &kp HASH
+&kp HASH  &kp CAPSLOCK  &kp F9  &kp F10   &kp F11  &kp F12      &kp AT    &trans        &trans     &trans         &kp QUESTION  &kp HASH
                                 &kp LGUI  &trans   &kp SPACE    &kp RET   &trans        &kp RALT
             >;
         };
