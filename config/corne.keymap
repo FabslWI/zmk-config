@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp HASH  &kp ESC       &kp F1  &kp F2    &kp F3   &kp F4       &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP    &kp DEL       &kp HASH
-&kp HASH  &kp TAB       &kp F5  &kp F6    &kp F7   &kp F8       &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp INSERT    &kp HASH
-&kp HASH  &kp CAPSLOCK  &kp F9  &kp F10   &kp F11  &kp F12      &kp AT    &trans        &trans     &trans         &kp QUESTION  &kp HASH
-                                &kp LGUI  &trans   &kp SPACE    &kp RET   &trans        &kp RALT
+&kp HASH  &kp ESC       &kp F1  &kp F2    &kp F3   &kp F4       &kp HOME           &kp UP_ARROW  &kp END    &kp PAGE_UP    &kp DEL       &kp HASH
+&kp HASH  &kp TAB       &kp F5  &kp F6    &kp F7   &kp F8       &kp LEFT           &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp INSERT    &kp HASH
+&kp HASH  &kp CAPSLOCK  &kp F9  &kp F10   &kp F11  &kp F12      &kp DOUBLE_QUOTES  &trans        &trans     &trans         &kp QUESTION  &kp HASH
+                                &kp LGUI  &trans   &kp SPACE    &kp RET            &trans        &kp RALT
             >;
         };
 
@@ -49,9 +49,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4  &kp N5    &kp HASH
-&kp HASH  &kp MINUS              &kp MINUS              &kp ASTERISK    &kp SLASH        &kp PERCENT      &kp NUMBER_6  &kp N7        &kp N8             &kp NUMBER_9  &kp SQT   &kp HASH
-&kp HASH  &kp LESS_THAN         &kp GREATER_THAN       &kp PIPE        &kp AMPERSAND    &kp EQUAL        &kp UNDER     &kp CARET     &kp DOUBLE_QUOTES  &kp DOLLAR    &kp HASH  &kp HASH
+&kp HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp HASH
+&kp HASH  &kp MINUS             &kp MINUS              &kp ASTERISK    &kp SLASH        &kp PERCENT      &kp NUMBER_6  &kp N7        &kp N8        &kp NUMBER_9  &kp SQT   &kp HASH
+&kp HASH  &kp LESS_THAN         &kp GREATER_THAN       &kp PIPE        &kp AMPERSAND    &kp EQUAL        &kp UNDER     &kp CARET     &kp AT_SIGN   &kp DOLLAR    &kp HASH  &kp HASH
                                                        &kp LGUI        &trans           &kp SPACE        &kp RET       &trans        &kp RALT
             >;
         };
