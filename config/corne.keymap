@@ -50,7 +50,7 @@
 
             bindings = <
 &kp HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4  &kp N5    &kp HASH
-&kp HASH  &kp PLUS              &kp MINUS              &kp ASTERISK    &kp SLASH        &kp PERCENT      &kp NUMBER_6  &kp N7        &kp N8             &kp NUMBER_9  &kp SQT   &kp HASH
+&kp HASH  &kp MINUS              &kp MINUS              &kp ASTERISK    &kp SLASH        &kp PERCENT      &kp NUMBER_6  &kp N7        &kp N8             &kp NUMBER_9  &kp SQT   &kp HASH
 &kp HASH  &kp LESS_THAN         &kp GREATER_THAN       &kp PIPE        &kp AMPERSAND    &kp EQUAL        &kp UNDER     &kp CARET     &kp DOUBLE_QUOTES  &kp DOLLAR    &kp HASH  &kp HASH
                                                        &kp LGUI        &trans           &kp SPACE        &kp RET       &trans        &kp RALT
             >;
