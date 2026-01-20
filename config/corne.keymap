@@ -66,10 +66,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp HASH  &none  &none           &kp UP_ARROW    &none            &kp PG_UP    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY  &kp HASH
-&kp HASH  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp SLASH        &kp HASH
-&kp HASH  &none  &none           &none           &kp HOME         &kp END      &kp N0     &kp N1  &kp N2  &kp N3  &kp PERIOD       &kp HASH
-                                 &none           &trans           &none        &none      &mo 3   &none
+&kp HASH  &none     &none           &kp UP_ARROW    &none            &kp PG_UP    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY  &kp HASH
+&kp HASH  &kp TAB   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp SLASH        &kp HASH
+&kp HASH  &kp CAPS  &none           &none           &kp HOME         &kp END      &kp N0     &kp N1  &kp N2  &kp N3  &kp PERIOD       &kp HASH
+                                    &none           &trans           &none        &none      &mo 3   &none
             >;
         };
 
