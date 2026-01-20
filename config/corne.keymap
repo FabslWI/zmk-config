@@ -66,10 +66,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp HASH  &none     &none           &kp UP_ARROW    &none            &kp PG_UP    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY  &kp HASH
-&kp HASH  &kp TAB   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp SLASH        &kp HASH
-&kp HASH  &kp CAPS  &none           &none           &kp HOME         &kp END      &kp N0     &kp N1  &kp N2  &kp N3  &kp PERIOD       &kp HASH
-                                    &none           &trans           &none        &none      &mo 3   &none
+&kp HASH  &none     &none           &kp UP_ARROW    &none            &kp PG_UP    &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY  &kp HASH
+&kp HASH  &kp TAB   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN    &kp KP_MINUS  &kp N4  &kp N5  &kp N6  &kp KP_SLASH     &kp HASH
+&kp HASH  &kp CAPS  &none           &none           &kp HOME         &kp END      &kp N0        &kp N1  &kp N2  &kp N3  &kp PERIOD       &kp HASH
+                                    &none           &trans           &none        &none         &mo 3   &none
             >;
         };
 
@@ -81,17 +81,17 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp HASH  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp RIGHT_BRACE  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_MULTIPLY   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH
-&kp HASH  &kp GRAVE        &none        &none     &none            &none          &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp HASH
-&kp HASH  &kp TILDE        &none        &none     &none            &none          &kp UNDER  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &kp HASH
-                                        &none     &mo 3            &none          &none      &trans         &none
+&kp HASH  &kp EXCLAMATION  &kp AT_SIGN  &kp NON_US_HASH  &none  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp KP_MULTIPLY   &kp KP_LEFT_PARENTHESIS  &kp KP_RPAR    &kp HASH
+&kp HASH  &kp GRAVE        &none        &none            &none  &none          &kp KP_MINUS    &kp KP_EQUAL   &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &kp BACKSLASH  &kp HASH
+&kp HASH  &kp TILDE        &none        &none            &none  &none          &kp UNDERSCORE  &kp KP_PLUS    &kp LEFT_BRACE    &kp RIGHT_BRACE          &kp PIPE       &kp HASH
+                                        &none            &mo 3  &none          &none           &trans         &none
             >;
         };
 
         layer_3 {
             bindings = <
 &trans  &kp F1        &kp F2        &kp F3          &kp F4      &kp F5              &kp F6      &kp F7        &kp F8           &kp F9  &kp F10  &trans
-&trans  &trans        &trans        &kp C_PREVIOUS  &kp C_NEXT  &kp K_PLAY_PAUSE    &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &kp F11  &trans
+&trans  &trans        &trans        &kp C_PREVIOUS  &kp C_NEXT  &kp K_PLAY_PAUSE    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &kp F11  &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_NXT  &bt BT_CLR          &trans      &trans        &trans           &trans  &kp F12  &trans
                                     &trans          &trans      &trans              &trans      &trans        &trans
             >;
